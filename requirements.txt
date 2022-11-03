@@ -1,0 +1,5 @@
+pyTelegramBotAPI
+pyTelegramBotAPI==4.7.1
+flask
+user_agent
+requests
