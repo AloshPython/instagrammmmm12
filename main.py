@@ -77,7 +77,8 @@ def boten(message):
             else:
                 print(Z+f"Ban | ResPones : {req_attempt}")
 
-            sessionid= '56173168935%3A3e78HiFRkGHe1E%3A23%3AAYf7nX1V_jhuVPZxYfIXXNU-WpjqriY57n8DJd6GUQ'         
+            sessionid= '56173168935%3A3e78HiFRkGHe1E%3A23%3AAYf7nX1V_jhuVPZxYfIXXNU-WpjqriY57n8DJd6GUQ'
+            bot.send_message(message.chat.id,f"req id ")
             id=(
 requests.get(
 url='https://i.instagram.com/api/v1/business/account/get_suggested_categories/?withCredentials=true',
