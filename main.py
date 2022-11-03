@@ -71,12 +71,7 @@ def boten(message):
             'opt_into_one_tap':'false',
             },)
             #print(req_attempt.text)
-            bot.send_message(message.chat.id,f"req {req_attempt}")
-            if '"status":"ok"' in req_attempt.text:
-                print(X+f"True | ResPones : {req_attempt}")
-            else:
-                print(Z+f"Ban | ResPones : {req_attempt}")
-
+            bot.send_message(message.chat.id,f"req ydhe{req_attempt}")
             sessionid= '56173168935%3A3e78HiFRkGHe1E%3A23%3AAYf7nX1V_jhuVPZxYfIXXNU-WpjqriY57n8DJd6GUQ'
             bot.send_message(message.chat.id,f"req id ")
             id=(
