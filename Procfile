@@ -1,1 +1,1 @@
-web: python3 flask.py
+web: python3 main.py
